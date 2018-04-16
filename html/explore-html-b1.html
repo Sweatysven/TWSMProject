@@ -10,10 +10,13 @@
 		<title>TWSMProject 2018</title>
 
 		<!-- Bootstrap core CSS -->
-		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="../css/bootstrap.css" rel="stylesheet">
 
 		<!-- Custom styles for this template -->
-		<link href="css/style.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
+        
+        <!-- Code Mirror -->
+        <link href="lib/codemirror.css" rel="stylesheet">
 
 		<!-- To use the Fontawesome_icons styles for this template (check the social icons) -->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -32,7 +35,7 @@
 						<span class="icon-bar"></span>
 					</button>
 
-					<a class="navbar-brand" href="index.html">TWSMProject</a>
+					<a class="navbar-brand" href="../index.html">TWSMProject</a>
 				</div>  
 				<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
@@ -66,67 +69,19 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-lg-offset-3">
-						<h2>ABOUT</h2>
-						<h4>SOME MORE INFORMATION ABOUT THIS MINI-PROJECT</h4>
+						<h2>HTML</h2>
+						<h4>Beginner Exercise 1</h4>
 					</div>
 				</div><!--/row -->
 			</div> <!-- /container -->
 		</div><!--/aboutwrap -->
 
-		<div id="aboutus">
-			<div class="container">
-				<div class="row centered mt mb">
-					<div class="col-lg-8 col-lg-offset-2">
-						<h4>ABOUT THE PROJECT</h4>
-						<p>The general idea with this website is to illustrate some of the key topics that was covered during the TWSM course lectures, at Aalborg University CPH 2018, and to demonstrate how the different technologies i.e. HTML, CSS, jQuery and Bootstrap, can be combined with different purposes. This implies that the website presents each web technology in short and additionally show exercises attached to each web technology and how to solve the exercises.</p>
-						<p>With that being said, several technologies has obviously been used throughout the site itself, not only to produced the desired style/appearance, but also to present some of the coolest features the technolgies can offer.
-					</div>
-				</div><!--/row -->
-			</div><!--/container -->
-		</div>
-
-		<div id="contactus">
-			<div class="container">
-				<div class="row centered mt mb">
-					<div class="col-lg-8 col-lg-offset-2">
-						<h2>Contact us</h2>
-						<h4>We would love to hear from you!</h4>
-						<p><br>Within the Explore tab, the website presents categories representing the different technologies included in the project. Each category will present several subcategories, which showcases the different TWSM exercises that was solved using the respective technologies. The developers of the website still considers the structure of the webpage to be discussed, the readers are therefore permitted to submit feedback in regards to the overall design.</p><br>
-					
-				
-						<form method = "get" action = "http://www.brics.dk/ixwt/echo" id = "feedbackForm">
-
-							<div class="row input-container">
-								<div class="col-xs-12">
-									<div class="styled-input wide">
-										<input type="text" required name="Name"/>
-										<label>Your Name</label> 
-									</div>
-								</div>
-								<div class="col-xs-12">
-									<div class="styled-input wide">
-										<input type="text" required name="Email"/>
-										<label>Your Email</label> 
-									</div>
-								</div>
-								<div class="col-xs-12">
-									<div class="styled-input wide">
-										<textarea required name="Message" form="feedbackForm"></textarea>
-										<label>Your Message</label>
-									</div>
-								</div>
-								<div class="col-xs-12">
-									<input class="myForm" type="submit" value="Send">
-								</div>
-									
-							</div>
-						</form>
-
-						</div>
-					</div>	
-				</div>
-			</div>
-		</div>
+        <div id="coding-wrapper">
+                <div class="container">
+                    <textarea class="codemirror-textarea"></textarea>
+                </div> <!-- /container -->
+            </div><!--/aboutwrap -->
+        
 
 		<div id="social"> <!-- start social -->
 			<div class="container">
@@ -172,10 +127,14 @@
     	<!-- Bootstrap core JavaScript and jQuery -->
     	<!-- Placed at the end of the document so the pages load faster -->
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
 		
 		<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-		<script type="text/javascript" src="js/explore.js"></script>
+        <script type="text/javascript" src="../js/explore.js"></script>
+        
+        <!-- Code Mirror -->
+        <script src="lib/codemirror.js"></script>
+        <script type="text/javascript" src="js/codemirror.js"></script>
     </body>
 </html>
 
