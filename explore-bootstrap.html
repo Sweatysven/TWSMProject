@@ -17,6 +17,10 @@
 
 		<!-- To use the Fontawesome_icons styles for this template (check the social icons) -->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<!-- Animate styles for this template -->
+		<link href="css/animate.css" rel="stylesheet">
+
   	</head>
 
   	<body>
@@ -63,7 +67,7 @@
 		</div>
 
 
-		<div id="workwrap">
+		<div id="workwrap-bs">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-lg-offset-3">
@@ -86,10 +90,12 @@
 		</div>
 				
 		<div id="explore-coming">
-			<div class="container watch fadeInUp delay-03s">
-				<div class="row">
-					<h4>We Are Creating New Exercises! Comming Soon</h4>
-					<div id="countdown" data-wow-delay=".3s" data-date="Dec 26, 2016 06:00:00"></div>
+			<div class="container">
+				<div class="row centered mt mb">
+					<div class="col-lg-8 col-lg-offset-2">
+						<h4>We Are Creating New Exercises! Comming Soon</h4>
+						<div id="clock"></div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -160,11 +166,20 @@
 		<script src="js/bootstrap.min.js"></script>
 		
 		<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-		<script type="text/javascript" src="js/explore.js"></script>
+		<script src="js/explore.js"></script>
 
-		<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
-		<script type="text/javascript" src="js/timer.js"></script>
+		<script src="js/jquery.countdown.min.js"></script>
 
+		<script>
+		$('#clock').countdown('2018/10/10').on('update.countdown', function(event) {
+			var $this = $(this).html(event.strftime('' 
+			+ '<span>%-m</span> month%!m '
+      		+ '<span>%-d</span> day%!d '
+      		+ '<span>%H</span> hr '
+      		+ '<span>%M</span> min '
+      		+ '<span>%S</span> sec'));
+  		});
+		</script>
 
     </body>
 </html>
