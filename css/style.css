@@ -302,12 +302,12 @@ ul .dropdown-menu a:hover {
 }
 
 .myForm {
-	background-color: #2B1CDA;
+	background-color: #221C50;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
 	width: 150px;
-	height: 10px;
+	height: 30px;
 	text-align: center;
 	position: relative;
 	padding-bottom: 50px;
@@ -685,4 +685,28 @@ ol.type li a:hover {
 
 .codemirror-textarea {
 	background: #999555;
+}
+
+#countdown {
+    text-align: center;
+    margin:  110px 0px 69px;
+    min-height: 104px;
+}
+#countdown > div {
+    width: 100px;
+    height: 100px;
+    margin: 0px 1%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 52px;
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#countdown > div > span
+{
+	display: block;
 }
