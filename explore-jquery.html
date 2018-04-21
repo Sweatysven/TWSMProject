@@ -164,6 +164,7 @@
 		</div>
 	</div>
 	<!-- end social -->
+
 	<!-- start footer -->
 	<div id="footerwrap">
 		<div class="container">
@@ -176,11 +177,9 @@
 				<div class="col-lg-4 footer-block">
 					<p>A mini-project</p>
 				</div>
-				<a href="http://www.en.aau.dk/" target="_blank">
-					<div class="col-lg-4 footer-block centered">
-						<p>www.en.aau.dk</p>
-					</div>
-				</a>
+				<div class="col-lg-4 footer-block centered">
+					<a href="http://www.en.aau.dk/" target="_blank">www.en.aau.dk</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -217,13 +216,13 @@
 	<script src="js/jquery.countdown.min.js"></script>
 
 	<script>
-		$('#clock').countdown('2018/07/01').on('update.countdown', function (event) {
+		$('#clock').countdown('2018/12/01').on('update.countdown', function (event) {
 			var $this = $(this).html(event.strftime(''
-				+ '<div class="test">%-m <br> month%!m </div>  '
-				+ '<div class="test">%-d <br> day%!d </div>  '
-				+ '<div class="test">%H <br> hr </div>  '
-				+ '<div class="test">%M <br> min </div>  '
-				+ '<div class="test">%S <br> sec </div>  '));
+				+ '<div class="test">%-m <br> month%!m </div>'
+				+ '<div class="test">%-d <br> days%!d </div>'
+				+ '<div class="test">%H <br> hours </div>'
+				+ '<div class="test">%M <br> minutes </div>'
+				+ '<div class="test">%S <br> seconds </div>'));
 		});
 	</script>
 </body>
