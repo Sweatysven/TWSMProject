@@ -934,16 +934,16 @@ iframe {
 }
 
 .hold-iframe-html {
-  background: url(../img/spinner/Gear-5s-200px-html.svg) 0px 0px no-repeat;
+  background: url(../img/spinner/Gear-5s-200px-html.svg) center center no-repeat;
   background-size: 200px 200px;
 }
 
 .hold-iframe-css {
-  background: url(../img/spinner/Gear-5s-200px-css.svg) 0px 0px no-repeat;
+  background: url(../img/spinner/Gear-5s-200px-css.svg) center center no-repeat;
   background-size: 200px 200px;
 }
 
 .hold-iframe-js {
-  background: url(../img/spinner/Gear-5s-200px-js.svg) 0px 0px no-repeat;
+  background: url(../img/spinner/Gear-5s-200px-js.svg) center center no-repeat;
   background-size: 200px 200px;
 }
