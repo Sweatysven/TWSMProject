@@ -1,175 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-  	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="AAU mini-project">
-		<meta name="author" content="Rasmus Johannsen, Mark Elmdam &amp; Mathias Hansen">
-		<link rel="shortcut icon" href="img/favicon.ico">
 
-		<title>TWSMProject 2018</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="AAU mini-project">
+	<meta name="author" content="Rasmus Johannsen, Mark Elmdam &amp; Mathias Hansen">
+	<link rel="shortcut icon" href="img/favicon.ico">
 
-		<!-- Bootstrap core CSS -->
-		<link href="css/bootstrap.css" rel="stylesheet">
+	<title>TWSMProject 2018</title>
 
-		<!-- Custom styles for this template -->
-		<link href="css/style.css" rel="stylesheet">
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
 
-		<!-- To use the Fontawesome_icons styles for this template (check the social icons) -->
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  	</head>
+	<!-- Custom styles for this template -->
+	<link href="css/style.css" rel="stylesheet">
 
-  	<body>
+	<!-- To use the Fontawesome_icons styles for this template (check the social icons) -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
 
-		<!-- Static navbar -->
-		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
+<body>
 
-					<a class="navbar-brand" href="index.html">TWSMProject</a>
-				</div>  
-				<div class="navbar-collapse collapse">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="about.html">About</a></li>
+	<!-- Static navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" href="index.html">TWSMProject</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<div class="dropdown">
 							<li>
-								<div class="dropdown">
-									<li><a href="explore.html">Explore</a></li>
-									<li data-toggle="dropdown" class="btn navbar-btn btn dropdown-toggle-split">
-										<span class="caret"></span>
-									</li>
-										<ul class="dropdown-menu">
-											<li><a href="explore-html.html">HTML</a></li>
-											<li><a href="explore-css.html">CSS</a></li>
-											<li><a href="explore-js.html">Javascript</a></li>
-											<li><a href="explore-jquery.html">jQuery</a></li>
-											<li><a href="explore-bootstrap.html">Bootstrap</a></li>
-											<li><a href="#myModal" data-toggle="modal">AJAX</a></li>
-											<li><a href="#myModal" data-toggle="modal">JSON</a></li>
-											<li><a href="#myModal" data-toggle="modal">Node</a></li>
-											<li><a href="#myModal" data-toggle="modal">AngularJS</a></li>
-										</ul>
-							<!-- <li><a href="feedback.html">FEEDBACK</a></li> -->
-								</div>
+								<a href="explore.html">Explore</a>
 							</li>
-						</ul>
-					</div> <!--/.nav-collapse -->
+							<li data-toggle="dropdown" class="btn navbar-btn btn dropdown-toggle-split">
+								<span class="caret"></span>
+							</li>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="explore-html.html">HTML</a>
+								</li>
+								<li>
+									<a href="explore-css.html">CSS</a>
+								</li>
+								<li>
+									<a href="explore-js.html">Javascript</a>
+								</li>
+								<li>
+									<a href="explore-jquery.html">jQuery</a>
+								</li>
+								<li>
+									<a href="explore-bootstrap.html">Bootstrap</a>
+								</li>
+								<li>
+									<a href="#myModal" data-toggle="modal">AJAX</a>
+								</li>
+								<li>
+									<a href="#myModal" data-toggle="modal">JSON</a>
+								</li>
+								<li>
+									<a href="#myModal" data-toggle="modal">Node</a>
+								</li>
+								<li>
+									<a href="#myModal" data-toggle="modal">AngularJS</a>
+								</li>
+							</ul>
+							<!-- <li><a href="feedback.html">FEEDBACK</a></li> -->
+						</div>
+					</li>
+				</ul>
 			</div>
+			<!--/.nav-collapse -->
 		</div>
+	</div>
 
 
-		<div id="workwrap-css">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 col-lg-offset-3">
-						<h2>EXPLORE</h2>
-						<h4>Cascading Style Sheets (CSS)</h4>
-					</div>
-				</div><!--/row -->
-			</div> <!-- /container -->
-		</div><!--/workwrap -->
-	
-		<div id="works">
-			<div class="container">
-				<div class="row centered mt mb">
-					<div class="col-lg-8 col-lg-offset-2">
-						<h4>CSS Introduction</h4>
-						<p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.</p>
-					</div>
+	<div id="workwrap-css">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h2>EXPLORE</h2>
+					<h4>Cascading Style Sheets (CSS)</h4>
+				</div>
+			</div>
+			<!--/row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!--/workwrap -->
+
+	<div id="works">
+		<div class="container">
+			<div class="row centered mt mb">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h4>CSS Introduction</h4>
+					<p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in
+						a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML
+						and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to
+						rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most
+						websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile
+						applications.</p>
 				</div>
 			</div>
 		</div>
-				
-		<div id="workselector">
-			<div class="container">
-				<div class="categories">
-					<ul class="cat">
-						<li>
-							<ol class="type">
-								<li><a href="#" data-filter="*" class="active">All</a></li>
-								<li><a href="#" data-filter=".lvl1">Beginner</a></li>
-								<li><a href="#" data-filter=".lvl2">Intermediate</a></li>
-								<li><a href="#" data-filter=".lvl3">Advanced</a></li>
-							</ol>
-						</li>
-					</ul>
-					<div class="clearfix"></div>
-				</div>
-				<div class="row">
-					<div class="web-items">
+	</div>
 
-						<div class="col-sm-6 col-md-3 col-lg-3 lvl1">
-							<div class="web-item">
-								<div class="hover-bg"> <a href="./html/explore-css-b1.html">
-								<div class="hover-text">
-									<h4>CSS</h4>
-									<h4>Beginner 1</h4>
-								</div>
-								<img src="img/web/css-01-small.png" class="img-responsive" alt="CSS Exercise 1"></a></div>
+	<div id="workselector">
+		<div class="container">
+			<div class="categories">
+				<ul class="cat">
+					<li>
+						<ol class="type">
+							<li>
+								<a href="#" data-filter="*" class="active">All</a>
+							</li>
+							<li>
+								<a href="#" data-filter=".lvl1">Beginner</a>
+							</li>
+							<li>
+								<a href="#" data-filter=".lvl2">Intermediate</a>
+							</li>
+							<li>
+								<a href="#" data-filter=".lvl3">Advanced</a>
+							</li>
+						</ol>
+					</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+			<div class="row">
+				<div class="web-items">
+
+					<div class="col-sm-6 col-md-3 col-lg-3 lvl1">
+						<div class="web-item">
+							<div class="hover-bg">
+								<a href="./html/explore-css-b1.html">
+									<div class="hover-text">
+										<h4>CSS</h4>
+										<h4>Beginner 1</h4>
+									</div>
+									<img src="img/web/css-01-small.png" class="img-responsive" alt="CSS Exercise 1">
+								</a>
 							</div>
 						</div>
+					</div>
 
-						<div class="col-sm-6 col-md-3 col-lg-3 lvl2">
-							<div class="web-item">
-								<div class="hover-bg"> <a href="./html/explore-css-i1.html">
-								<div class="hover-text">
-									<h4>CSS</h4>
-									<h4>Intermediate 1</h4>
-								</div>
-								<img src="img/web/css-02-small.png" class="img-responsive" alt="CSS Exercise 1"></a></div>
+					<div class="col-sm-6 col-md-3 col-lg-3 lvl2">
+						<div class="web-item">
+							<div class="hover-bg">
+								<a href="./html/explore-css-i1.html">
+									<div class="hover-text">
+										<h4>CSS</h4>
+										<h4>Intermediate 1</h4>
+									</div>
+									<img src="img/web/css-02-small.png" class="img-responsive" alt="CSS Exercise 1">
+								</a>
 							</div>
 						</div>
+					</div>
 
-						<div class="col-sm-6 col-md-3 col-lg-3 lvl1">
-							<div class="web-item">
-								<div class="hover-bg"> <a href="./html/explore-css-b2.html">
-								<div class="hover-text">
-									<h4>CSS</h4>
-									<h4>Beginner 2</h4>
-								</div>
-								<img src="img/web/css-01-small.png" class="img-responsive" alt="CSS Exercise 2"></a></div>
+					<div class="col-sm-6 col-md-3 col-lg-3 lvl1">
+						<div class="web-item">
+							<div class="hover-bg">
+								<a href="./html/explore-css-b2.html">
+									<div class="hover-text">
+										<h4>CSS</h4>
+										<h4>Beginner 2</h4>
+									</div>
+									<img src="img/web/css-01-small.png" class="img-responsive" alt="CSS Exercise 2">
+								</a>
 							</div>
 						</div>
+					</div>
 
-						<div class="col-sm-6 col-md-3 col-lg-3 lvl1">
-							<div class="web-item">
-								<div class="hover-bg"> <a href="./html/explore-css-b3.html">
-								<div class="hover-text">
-									<h4>CSS</h4>
-									<h4>Beginner 3</h4>
-								</div>
-								<img src="img/web/css-01-small.png" class="img-responsive" alt="CSS Exercise 3"></a></div>
+					<div class="col-sm-6 col-md-3 col-lg-3 lvl1">
+						<div class="web-item">
+							<div class="hover-bg">
+								<a href="./html/explore-css-b3.html">
+									<div class="hover-text">
+										<h4>CSS</h4>
+										<h4>Beginner 3</h4>
+									</div>
+									<img src="img/web/css-01-small.png" class="img-responsive" alt="CSS Exercise 3">
+								</a>
 							</div>
 						</div>
+					</div>
 
-						<div class="col-sm-6 col-md-3 col-lg-3 lvl2">
-							<div class="web-item">
-								<div class="hover-bg"> <a href="./html/explore-css-i2.html">
-								<div class="hover-text">
-									<h4>CSS</h4>
-									<h4>Intermediate 2</h4>
-								</div>
-								<img src="img/web/css-02-small.png" class="img-responsive" alt="CSS Exercise 2"></a></div>
+					<div class="col-sm-6 col-md-3 col-lg-3 lvl2">
+						<div class="web-item">
+							<div class="hover-bg">
+								<a href="./html/explore-css-i2.html">
+									<div class="hover-text">
+										<h4>CSS</h4>
+										<h4>Intermediate 2</h4>
+									</div>
+									<img src="img/web/css-02-small.png" class="img-responsive" alt="CSS Exercise 2">
+								</a>
 							</div>
 						</div>
+					</div>
 
-						<div class="col-sm-6 col-md-3 col-lg-3 lvl3">
-							<div class="web-item">
-								<div class="hover-bg"> <a href="./html/explore-css-a1.html">
-								<div class="hover-text">
-									<h4>CSS</h4>	
-									<h4>Advanced 1</h4>
-								</div>
-								<img src="img/web/css-03-small.png" class="img-responsive" alt="CSS Exercise 1"></a></div>
+					<div class="col-sm-6 col-md-3 col-lg-3 lvl3">
+						<div class="web-item">
+							<div class="hover-bg">
+								<a href="./html/explore-css-a1.html">
+									<div class="hover-text">
+										<h4>CSS</h4>
+										<h4>Advanced 1</h4>
+									</div>
+									<img src="img/web/css-03-small.png" class="img-responsive" alt="CSS Exercise 1">
+								</a>
 							</div>
 						</div>
+					</div>
 
-						<!--
+					<!--
 						<div class="col-sm-6 col-md-3 col-lg-3 lvl3">
 							<div class="web-item">
 								<div class="hover-bg"> <a href="#">
@@ -182,7 +240,7 @@
 						</div>
 						-->
 
-						<!--
+					<!--
 						<div class="col-sm-6 col-md-3 col-lg-3 lvl1">
 							<div class="web-item">
 								<div class="hover-bg"> <a href="#">
@@ -195,7 +253,7 @@
 						</div>
 						-->
 
-						<!--
+					<!--
 						<div class="col-sm-6 col-md-3 col-lg-3 lvl2">
 							<div class="web-item">
 								<div class="hover-bg"> <a href="#">
@@ -208,7 +266,7 @@
 						</div>
 						-->
 
-						<!--
+					<!--
 						<div class="col-sm-6 col-md-3 col-lg-3 lvl3">
 							<div class="web-item">
 								<div class="hover-bg"> <a href="#">
@@ -220,8 +278,8 @@
 							</div>
 						</div>
 						-->
-						
-						<!--
+
+					<!--
 						<div class="col-sm-6 col-md-3 col-lg-3 lvl3">
 							<div class="web-item">
 								<div class="hover-bg"> <a href="#">
@@ -234,7 +292,7 @@
 						</div>
 						-->
 
-						<!--
+					<!--
 						<div class="col-sm-6 col-md-3 col-lg-3 lvl2">
 							<div class="web-item">
 								<div class="hover-bg"> <a href="#">
@@ -247,77 +305,99 @@
 						</div>
 						-->
 
-					</div>
 				</div>
 			</div>
 		</div>
-	
-		<div id="social"> <!-- start social -->
-			<div class="container">
-				<div class="row centered">
-					<div class="col-lg-2">
-						<a href="https://dribbble.com/" title = "Dribble"><i class="fa fa-dribbble"></i></a>
-					</div>
-					<div class="col-lg-2">                    
-						<a href="https://www.facebook.com/" title = "Facebook"><i class="fa fa-facebook"></i></a> 
-					</div>
-					<div class="col-lg-2">
-						<a href="https://twitter.com/?lang=da"title = "Twitter"><i class="fa fa-twitter"></i></a>
-					</div>
-					<div class="col-lg-2">
-						<a href="https://dk.linkedin.com/" title = "Linkedin"><i class="fa fa-linkedin"></i></a>
-					</div>
-					<div class="col-lg-2">
-						<a href="https://www.instagram.com/?hl=da" title = "Instagram"><i class="fa fa-instagram"></i></a>
-					</div>
-					<div class="col-lg-2">
-						<a href="https://www.tumblr.com/login" title = "Tumblr"><i class="fa fa-tumblr"></i></a>
-					</div>
-				</div>
-			</div>
-		</div> <!-- end social -->
+	</div>
 
-		<div id="footerwrap"> <!-- start footer -->
-			<div class="container">
-				<div class="row centered">
-					<div class="col-lg-4">
-						<p><b>Technologies for Web and Social Media</b></p>
-					</div>			     
-					<div class="col-lg-4">
-						<p>A mini-project</p>
-					</div>
-					<div class="col-lg-4">
-						<a href="http://www.en.aau.dk/" target="_blank"><p>www.en.aau.dk</p></a>
-					</div>
+	<div id="social">
+		<!-- start social -->
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-2">
+					<a href="https://dribbble.com/" title="Dribble">
+						<i class="fa fa-dribbble"></i>
+					</a>
 				</div>
-			</div>
-		</div> <!-- end footer -->
-	
-		<!-- This is the dialog used to tell users that certain web technologies currently are not available to explore (Bootstrap Modal) -->
-		<!-- Modal -->
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-						<h4 class="modal-title">404 Not Found!</h4>
-					</div>
-					<div class="modal-body">
-						This web technology is currently being developed as you read this. Close this dialog and choose a different web technology to discover.
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-					</div>
+				<div class="col-lg-2">
+					<a href="https://www.facebook.com/" title="Facebook">
+						<i class="fa fa-facebook"></i>
+					</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://twitter.com/?lang=da" title="Twitter">
+						<i class="fa fa-twitter"></i>
+					</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://dk.linkedin.com/" title="Linkedin">
+						<i class="fa fa-linkedin"></i>
+					</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://www.instagram.com/?hl=da" title="Instagram">
+						<i class="fa fa-instagram"></i>
+					</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://www.tumblr.com/login" title="Tumblr">
+						<i class="fa fa-tumblr"></i>
+					</a>
 				</div>
 			</div>
 		</div>
+	</div>
+	<!-- end social -->
 
-    	<!-- Bootstrap core JavaScript and jQuery -->
-    	<!-- Placed at the end of the document so the pages load faster -->
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		
-		<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-		<script type="text/javascript" src="js/explore.js"></script>
-    </body>
+	<!-- start footer -->
+	<div id="footerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-4 footer-block">
+					<p>
+						<b>Technologies for Web and Social Media</b>
+					</p>
+				</div>
+				<div class="col-lg-4 footer-block">
+					<p>A mini-project</p>
+				</div>
+				<a href="http://www.en.aau.dk/" target="_blank">
+					<div class="col-lg-4 footer-block centered">
+						<p>www.en.aau.dk</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
+
+	<!-- This is the dialog used to tell users that certain web technologies currently are not available to explore (Bootstrap Modal) -->
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+					<h4 class="modal-title">404 Not Found!</h4>
+				</div>
+				<div class="modal-body">
+					This web technology is currently being developed as you read this. Close this dialog and choose a different web technology
+					to discover.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap core JavaScript and jQuery -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+	<script type="text/javascript" src="js/explore.js"></script>
+</body>
+
 </html>

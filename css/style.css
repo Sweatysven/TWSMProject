@@ -249,18 +249,37 @@ ul .dropdown-menu a.active {
 
 #footerwrap {
   text-align: center;
-  padding-top: 70px;
-  padding-bottom: 50px;
   background-color: #2f2f2f;
 }
 
 #footerwrap p {
   color: #f2f2f2;
   padding-left: 30px;
+  margin-bottom: 0;
+  padding: 0;
+  cursor: default;
 }
 
-#footerwrap a:hover {
-  color: #2b1cda;
+#footerwrap a:hover p {
+  text-decoration: underline;
+  text-decoration-color: #2b1cda;
+  cursor: pointer;
+}
+
+.footer-block {
+  padding: 70px 0;
+}
+
+@media (max-width: 1199px) {
+  #social i {
+    padding: 10px 0;
+  }
+  #footerwrap {
+    padding: 50px 0;
+  }
+  .footer-block {
+    padding: 20px 0;
+  }
 }
 
 #aboutwrap {
